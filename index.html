@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-    <meta charset="UTF-8">
-    <title>My Profile</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo Login</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+  background: url('./1317711.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+.form {display:flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  border: 1px solid black;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset -4px -3px rgba(0, 0, 0, 0.5);
+  border-radius: 2040px;
+}
+</style>
 <body>
-    <div class="profile-container">
-        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-        <h1 id="name">Your Name</h1>
-        <p id="bio">Write something about yourself here. You can mention your hobbies, interests, skills, or anything you like!</p>
-        <button onclick="editProfile()">Edit Profile</button>
-    </div>
-    <script src="script.js"></script>
+  <form action="" class="form">
+    <h1 style="color: rgb(166, 31, 56);">Login</h1>
+    <input type="email" name="email" class="box" placeholder="Enter Username">
+    <input type="password" name="password" class="box" placeholder="Enter password">
+    <input type="submit" value="Login">    
+  </form>
 </body>
-</html>
